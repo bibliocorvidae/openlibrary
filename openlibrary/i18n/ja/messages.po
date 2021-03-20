@@ -729,8 +729,8 @@ msgstr "リスト最後の品目を除外します。リスト全体が削除さ
 #, python-format
 msgid "- <a href=\"%(url)s\">1 edition</a> in catalog"
 msgid_plural "- <a href=\"%(url)s\">%(count)s editions</a> in catalog"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "- カタログに<a href=\"%(url)s\">一版</a>ございます"
+msgstr[1] "- カタログに<a href=\"%(url)s\">%(count)s版</a>ございます"
 
 #: view.html:228
 msgid "Download DAISY eBook for print disabled"
@@ -787,7 +787,7 @@ msgstr "貸し出し中"
 
 #: view.html:28
 msgid "admin page"
-msgstr "アドミン用"
+msgstr "管理人用"
 
 #: books.html:53 books.html:76 view.html:46
 msgid "Reading Log"
@@ -1246,33 +1246,37 @@ msgid ""
 "We connect our records to WorldCat wherever possible. You can tell "
 "WorldCat your postcode/zip code, and it will tell you the closest library"
 " with a copy of the book."
-msgstr ""
+msgstr "できるかぎりWorldCatに連携しています。WorldCatに郵便番号を登録すれば"
+"この本がある一番近い図書館を記載します。"
 
 #: borrow.html:267
 msgid "Getting Started"
-msgstr ""
+msgstr "はじめる"
 
 #: borrow.html:268
 msgid ""
 "All you need to borrow a book scanned at the Internet Archive is an Open "
 "Library account and Adobe Digital Editions."
-msgstr ""
+msgstr "インターネット・アーカイブで本を貸し出すには、アカウントと"
+"Adobe Digital Editionsが必要です。"
 
 #: borrow.html:269
 msgid ""
 "Loans through WorldCat are managed through your local libraries, not "
 "through Open Library."
-msgstr ""
+msgstr "WorldCatを通しての貸し出しはオープンライブラリーではなく"
+"地元の図書館を通じて行っております"
 
 #: borrow.html:271
 msgid ""
 "Check out the <a href=\"/help/faq#section-borrowing\"><strong>Lending "
 "FAQ</strong></a> for more information."
-msgstr ""
+msgstr "詳細は<a href=\"/help/faq#section-borrowing\"><strong>貸し出しのよくある質問</strong></a>"
+"をご確認ください。"
 
 #: borrow.html:274
 msgid "Which books are available?"
-msgstr ""
+msgstr "どの本が今貸し出されていない状態ですか？"
 
 #: borrow.html:275
 #, python-format
@@ -1280,49 +1284,51 @@ msgid ""
 "Browse all the available books through the <a "
 "href=\"/subjects/lending_library\">\"Lending Library\"</a> subject, or "
 "try a <a href=\"/search?subject_facet=Lending%20library\">search</a>."
-msgstr ""
+msgstr "今貸し出せる本を<a "href=\"/subjects/lending_library\">\"Lending Library\"</a>キーワード"
+"または<a href=\"/search?subject_facet=Lending%20library\">検索</a>で調べてみますか？"
 
 #: borrow.html:280
 msgid "Help/Downloads"
-msgstr ""
+msgstr "ヘルプとダウンロード"
 
 #: borrow.html:282
 msgid "Download Adobe Digital Editions"
-msgstr ""
+msgstr "Adobe Digital Editionsダウンロード"
 
 #: borrow.html:283
 msgid ""
 "<a href=\"http://www.adobe.com/products/digitaleditions/help/\">Help</a> "
 "on adobe.com"
-msgstr ""
+msgstr "adobe.comでの<a href=\"http://www.adobe.com/products/digitaleditions/help/\">ヘルプ</a> "
 
 #: borrow.html:286
 msgid ""
 "If you work at a library and are interested to find out more about "
 "lending ebooks through Open Library, please <a href=\"/contact\">get in "
 "touch with us</a>!"
-msgstr ""
+msgstr "図書館員の方でオープンライブラリーを通じて本を貸し出したい方は<a href=\"/contact\">ぜひご連絡 "
+"ください</a>"
 
 #: create.html:9
 msgid "Sign Up to Open Library"
-msgstr ""
+msgstr "オープンライブラリーにユーザー登録"
 
 #: create.html:12 create.html:96 nav_head.html:109 search_head.html:78
 msgid "Sign Up"
-msgstr ""
+msgstr "ユーザー登録"
 
 #: create.html:14
 msgid "Complete the form below to create a new Internet Archive account."
-msgstr ""
+msgstr "下記のフォームを記入してインターネット・アーカイブにアカウント登録"
 
 #: create.html:15
 msgid "Each field is required"
-msgstr ""
+msgstr "各項目は必須です"
 
 #: create.html:57 openlibrary/templates/login.html:18
 #, python-format
 msgid "You are already logged into Open Library as %(user)s."
-msgstr ""
+msgstr "すでに%(user)sとしてログインしています"
 
 #: create.html:58 openlibrary/templates/login.html:19
 msgid ""
@@ -1330,162 +1336,165 @@ msgid ""
 "need to <a href=\"javascript:;\" "
 "onclick=\"document.forms['logout'].submit()\">log out</a> and start the "
 "signup process afresh."
-msgstr ""
+msgstr "新規に別のインターネット・アーカイブアカウントを作成するには　<a href=\"javascript:;\""
+"onclick=\"document.forms['logout'].submit()\">ログアウト</a>してから登録してください"
 
 #: create.html:67
 msgid "screenname"
-msgstr ""
+msgstr "ニックネーム"
 
 #: create.html:71
 #, python-format
 msgid "Your URL: %s"
-msgstr ""
+msgstr "あなたのURL:　%s"
 
 #: create.html:84
 msgid ""
 "If you have security settings or privacy blockers installed, please "
 "disable them to see the reCAPTCHA."
-msgstr ""
+msgstr "セキュリティやプライバシー設定をいったん消してからreCAPTCHAをしてください"
 
 #: create.html:88
 msgid "Incorrect. Please try again."
-msgstr ""
+msgstr "不正解です。再度記入してください"
 
 #: create.html:92
 msgid ""
 "By signing up, you agree to the Internet Archive's <a "
 "href='//archive.org/about/terms.php' target='_blank'>Terms of "
 "Service</a>."
-msgstr ""
+msgstr "登録すると<a "href='//archive.org/about/terms.php' target='_blank'>利用条約 "
+"</a>に同意します"
 
 #: add.html:79 add.html:135 authors.html:125 create.html:97
 #: edit/addfield.html:87 edit/addfield.html:133 edit/addfield.html:177
 #: manage.html:65 notifications.html:59 openlibrary/macros/EditButtons.html:23
 #: password/reset.html:24 privacy.html:56 widget.html:304
 msgid "Cancel"
-msgstr ""
+msgstr "キャンセル"
 
 #: delete.html:6 delete.html:10
 msgid "Delete Account"
-msgstr ""
+msgstr "アカウント削除"
 
 #: delete.html:15
 msgid "Sorry, this functionality is not yet implemented."
-msgstr ""
+msgstr "すみません、この機能はまだ導入されていません"
 
 #: not_verified.html:7 not_verified.html:18 verify/failed.html:10
 msgid "Oops!"
-msgstr ""
+msgstr "エラー"
 
 #: not_verified.html:36 verify/failed.html:29
 msgid "Resend the verification email"
-msgstr ""
+msgstr "本人確認メールを再送"
 
 #: notifications.html:7 notifications.html:16
 msgid "Notifications from Open Library"
-msgstr ""
+msgstr "オープンライブラリーからの通知メール"
 
 #: notifications.html:14
 msgid "Notifications"
-msgstr ""
+msgstr "通知メール"
 
 #: notifications.html:31
 msgid ""
 "Notifications are connected to Lists at the moment. If one of the books "
 "on your list gets edited, or a new book comes into the catalog, we'll let"
 " you know, if you want."
-msgstr ""
+msgstr "現在通知はリストに連携しています。リストの本の情報が編集されたり、"
+"カタログに新しい書籍が追加された場合はお知らせをお送りできます。"
 
 #: notifications.html:35
 msgid "Would you like to receive very occasional emails from Open Library?"
-msgstr ""
+msgstr "たまにオープンライブラリーからのメールを受け取りますか？"
 
 #: notifications.html:42
 msgid "No, thank you"
-msgstr ""
+msgstr "いいえ"
 
 #: notifications.html:49
 msgid "Yes! Please!"
-msgstr ""
+msgstr "はい、お願いします"
 
 #: manage.html:64 notifications.html:57 openlibrary/macros/EditButtons.html:21
 #: privacy.html:54
 msgid "Save"
-msgstr ""
+msgstr "保存"
 
 #: privacy.html:7
 msgid "Your Privacy on Open Library"
-msgstr ""
+msgstr "プライバシー"
 
 #: privacy.html:16
 msgid "Privacy Settings"
-msgstr ""
+msgstr "プライバシー設定"
 
 #: privacy.html:39
 msgid "Yes"
-msgstr ""
+msgstr "はい"
 
 #: edit/edition.html:399 privacy.html:46
 msgid "No"
-msgstr ""
+msgstr "いいえ"
 
 #: verify.html:7
 msgid "Verification email sent"
-msgstr ""
+msgstr "本人確認メールを送りました"
 
 #: email/forgot-ia.html:10 email/forgot.html:10
 msgid "Forgot Your Internet Archive Email?"
-msgstr ""
+msgstr "インターネット・アーカイブのメールアドレスを忘れた"
 
 #: email/forgot-ia.html:43 password/forgot.html:10
 msgid "Forgot your Archive.org Password?"
-msgstr ""
+msgstr "パスワードを忘れた"
 
 #: email/forgot.html:15
 msgid "Forgot Your Open Library Email?"
-msgstr ""
+msgstr "オープンライブラリーのメールアドレスを忘れた"
 
 #: email/forgot.html:48 openlibrary/templates/login.html:66
 msgid "Forgot your Password?"
-msgstr ""
+msgstr "パスワードを忘れた"
 
 #: password/forgot.html:7 password/sent.html:7
 msgid "Username/Password Reminder"
-msgstr ""
+msgstr "ユーザーネーム・パスワードのリマインダー"
 
 #: password/forgot.html:11
 msgid "Forgot your Archive.org password?"
-msgstr ""
+msgstr "Archive.orgのパスワードを忘れた"
 
 #: password/forgot.html:23
 msgid "Send It"
-msgstr ""
+msgstr "送る"
 
 #: password/reset.html:7 password/reset.html:10
 msgid "Reset Password"
-msgstr ""
+msgstr "パスワード再発行"
 
 #: password/reset.html:15
 msgid "Please enter a new password for your Open Library account."
-msgstr ""
+msgstr "オープンライブラリー用の新しいパスワードを記入してください"
 
 #: password/reset.html:23
 msgid "Reset"
-msgstr ""
+msgstr "リセット"
 
 #: password/reset_success.html:7
 msgid "Password Reset Successful"
-msgstr ""
+msgstr "パスワードのリセットが成功しました"
 
 #: password/reset_success.html:14
 msgid ""
 "Your password has been updated. Please <a "
 "href='/account/login?redirect=/'>log in to continue</a>."
-msgstr ""
+msgstr "パスワードが更新されました。href='/account/login?redirect=/'>ログインしてください</a>"
 
 #: password/sent.html:10
 msgid "Done."
-msgstr ""
+msgstr "完了"
 
 #: password/sent.html:14
 #, python-format
@@ -1493,166 +1502,166 @@ msgid ""
 "We've sent an email to %(email)s with a reminder of your username and "
 "instructions to help you reset your Open Library password. Please check "
 "your inbox for a note from us."
-msgstr ""
+msgstr "%(email)sにユーザーネームとパスワードのリセット方法を送りました。メールをご確認ください"
 
 #: verify/activated.html:7
 msgid "Account already activated"
-msgstr ""
+msgstr "このアカウントは既に存在します"
 
 #: verify/activated.html:15
 #, python-format
 msgid ""
 "Your account has been activated already. Please <a href=\"%s\">log in to "
 "continue</a>."
-msgstr ""
+msgstr "このアカウントは既に存在します。<a href=\"%s\">ログインしてください"
 
 #: verify/failed.html:7
 msgid "Email Verification Failed"
-msgstr ""
+msgstr "本人確認失敗"
 
 #: verify/failed.html:14
 msgid ""
 "Your email address couldn't be verified. Your verification link seems "
 "invalid or expired."
-msgstr ""
+msgstr "本人確認できませんでした。リンクが切れたようです"
 
 #: verify/failed.html:22
 msgid "Enter your email address here"
-msgstr ""
+msgstr "メールアドレス"
 
 #: verify/failed.html:25
 msgid "No user registered with this email address."
-msgstr ""
+msgstr "このメールアドレスに登録されたユーザーはありません"
 
 #: verify/success.html:7
 msgid "Email Verification Successful"
-msgstr ""
+msgstr "本人確認完了"
 
 #: verify/success.html:15
 #, python-format
 msgid ""
 "Yay! Your email address has been verified. Please <a href='%s'>log in to "
 "continue</a>."
-msgstr ""
+msgstr "メールアドレスが確認できました。<a href='%s'>ログインしてください"
 
 #: add.html:7 check.html:10
 msgid "Add a book"
-msgstr ""
+msgstr "書籍を追加"
 
 #: add.html:11
 msgid "Add a book to Open Library"
-msgstr ""
+msgstr "オープンライブラリーに書籍を追加"
 
 #: add.html:13
 msgid ""
 "We require a minimum set of fields to create a new record. These are "
 "those fields."
-msgstr ""
+msgstr "新規登録には最低このフィールドの記入が必須です。"
 
 #: add.html:34 advancedsearch.html:21 edit.html:98 nav_head.html:45
 #: openlibrary/templates/work_search.html:122
 #: openlibrary/templates/work_search.html:202 search_foot.html:9
 #: search_head.html:9
 msgid "Author"
-msgstr ""
+msgstr "著者"
 
 #: add.html:34
 msgid ""
 "Like, \"Agatha Christie\" or \"Jean-Paul Sartre.\" We'll also do a live "
 "check to see if we already know the author."
-msgstr ""
+msgstr "例：\"Agatha Christie\"、 \"Jean-Paul Sartre\"すでに著者が登録されているか確認します"
 
 #: add.html:39 edit/edition.html:130
 msgid "Who is the publisher?"
-msgstr ""
+msgstr "出版社は？"
 
 #: add.html:46 edit/edition.html:140
 msgid "When was it published?"
-msgstr ""
+msgstr "出版したのはいつ？"
 
 #: add.html:46
 msgid "The year it was published is plenty."
-msgstr ""
+msgstr "出版年で十分ですよ"
 
 #: add.html:53
 msgid ""
 "And optionally, an ID number &#151; like an ISBN &#151; would be "
 "helpful..."
-msgstr ""
+msgstr "できればISBN &#151;などのID番号&#151;があればいいな・・・"
 
 #: add.html:54
 msgid "ID Type"
-msgstr ""
+msgstr "IDの種類"
 
 #: add.html:57
 msgid "Select"
-msgstr ""
+msgstr "選ぶ"
 
 #: add.html:70
 msgid "Since you are not logged in, please satisfy the reCAPTCHA below."
-msgstr ""
+msgstr "ログインしていないのでreCAPTCHAをしてください"
 
 #: add.html:77
 msgid "Add this book now"
-msgstr ""
+msgstr "今すぐこの書籍を追加"
 
 #: add.html:77 edit/addfield.html:85 edit/addfield.html:131
 #: edit/addfield.html:175 edit/edition.html:319 edit/edition.html:483
 #: edit/edition.html:549 edit/excerpts.html:50
 msgid "Add"
-msgstr ""
+msgstr "追加"
 
 #: author-autocomplete.html:13
 msgid "Create a new record for"
-msgstr ""
+msgstr "新しい記録を作成"
 
 #: author-autocomplete.html:42
 msgid "Remove this author"
-msgstr ""
+msgstr "この著者を外す"
 
 #: author-autocomplete.html:43
 msgid "Add another author?"
-msgstr ""
+msgstr "著者を追加しますか？"
 
 #: check.html:13 nav_foot.html:39 nav_head.html:16 nav_head.html:93
 msgid "Add a Book"
-msgstr ""
+msgstr "書籍を追加"
 
 #: check.html:15
 #, python-format
 msgid ""
 "One moment... It looks like we already have <em>some potential "
 "matches</em> for <b>%(title)s</b> by <b>%(author)s</b>."
-msgstr ""
+msgstr "<em>もしかして</em><b>%(author)s</b>作の<b>%(title)s</b>ですか？"
 
 #: check.html:17
 msgid ""
 "Rather than creating a duplicate record, please click through the result "
 "you think best matches your book."
-msgstr ""
+msgstr "重複のないように、適当なものを選んでください"
 
 #: check.html:27 check.html:31
 msgid "Select this book"
-msgstr ""
+msgstr "この書籍を選ぶ"
 
 #: custom_carousel.html:25
 #, python-format
 msgid " by %(name)s"
-msgstr ""
+msgstr "%(name)s作"
 
 #: custom_carousel.html:34
 msgid "Sponsor"
-msgstr ""
+msgstr "スポンサー"
 
 #: edit.html:68 edit.html:71 edit.html:74
 msgid "Add a little more?"
-msgstr ""
+msgstr "もうちょっと追加する？"
 
 #: edit.html:69
 msgid ""
 "Thank you for adding that book! Any more information you could provide "
 "would be wonderful!"
-msgstr ""
+msgstr "書籍を追加してくださりありがとうございました！ほかにもなにか情報あれば助かります"
 
 #: edit.html:72
 #, python-format
@@ -1660,22 +1669,25 @@ msgid ""
 "We already know about <b>%(work_title)s</b>, but not the <b>%(year)s "
 "%(publisher)s edition</b>. Thanks! Do you know any more about this "
 "edition?"
-msgstr ""
+msgstr "<b>%(work_title)s</b>は既に登録済みですが、<b>%(year)s "
+"%(publisher)s版は登録されておりません。登録ありがとうございました！"
+"この版についての詳細をご存知でしょうか？"
 
 #: edit.html:75
 #, python-format
 msgid ""
 "We already know about the <b>%(year)s %(publisher)s edition</b> of "
 "<b>%(work_title)s</b>, but please, tell us more!"
-msgstr ""
+msgstr "<b>%(work_title)s</b>の<b>%(publisher)s</b>出版
+"%(year)sedition</b>は既に登録済みですが詳細をご記入ください"
 
 #: edit.html:77
 msgid "Editing..."
-msgstr ""
+msgstr "編集中"
 
 #: edit.html:92
 msgid "Use <b><i>Title: Subtitle</i></b> to add a subtitle."
-msgstr ""
+msgstr "<b><i>Title: サブタイトル</i></b>でサブタイトルを追加"
 
 #: edit.html:99
 msgid ""
